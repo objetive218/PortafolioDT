@@ -1,0 +1,290 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@400;700&family=PT+Sans&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Shantell+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import url(./phone.css);
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0rem;
+    padding: 1.8rem;
+    width: 100vw;
+    height: 14vh;
+    align-self: normal;
+    justify-content: space-between;
+    background-color: #252426;
+    font-weight: 500;
+    font-size: 30px;
+    color: bisque;
+}
+
+#botones {
+    padding: 1.5rem;
+    margin: 0rem 5rem 0rem 0rem;
+    color: bisque;
+    
+}
+#botones a{
+    color: aliceblue;
+}
+#about:hover {
+    color: #c78c16;
+}
+#proyectos:hover {
+    color: #c78c16;
+}
+#contacto:hover {
+    color: #c78c16;
+}
+
+#about {
+    margin: 4rem;
+}
+#proyectos {
+    margin: 3rem;
+}
+#contacto {
+    margin: 3rem;
+
+}
+#introduccion {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 8%;
+    padding: 8%;
+    
+}
+
+h3{
+    display: flex;
+    font-size: 35px;
+    color: bisque ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(37, 36, 38, 0.5);
+    border: .30rem solid rgba(37, 36, 38, 0.7);
+    border-radius: 20%;
+    padding: 1rem;
+}
+#foto1{
+    width: 20vw;
+    height: 45vh;
+    overflow: hidden;
+    border-radius: 15rem;
+    border: #471ED9;
+    border: .30rem solid rgba(37, 36, 38, 0.7);
+    position: ab;
+}
+#foto1:hover {
+    transform: scale(1.1);
+}
+
+#introduccion picture{
+    position: relative; 
+} 
+#secabout {
+    height: 100%;
+    font-size: 30px;
+    
+}
+#boxabout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 3rem;
+    font-size: 25px;
+    
+}
+#prabout1{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    text-align: center;
+    background-color: rgba(155, 63, 106, 0.6);
+    border-radius: 3rem;
+    padding: 1rem;
+    color: aliceblue;
+    border: .30rem solid rgba(37, 36, 38, 0.7);
+}
+#prabout1:hover {
+    transform: scale(1.1);
+}
+#prabout2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    text-align: center;
+    background-color: rgba(71, 30, 217, 0.6);
+    border-radius: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+    border: .30rem solid rgba(37, 36, 38, 0.7); 
+}
+#prabout2:hover {
+    transform: scale(1.1);
+}
+#prabout3{
+    grid-column: 3/3;
+    grid-row: 3/3;
+    display: flex;
+    text-align: center;
+    background-color: rgba(37, 36, 38, 0.7);
+    border-radius: 2.4rem;
+    padding: 1rem;
+    color: aliceblue;
+    border: .30rem solid rgba(37, 36, 38, 0.7);
+}
+#prabout3:hover {
+    transform: scale(1.1);
+}
+#secproyectos {
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+#secproyectos a{
+    font-size: 4rem;
+    color: aliceblue;
+}
+#boxproyecto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    
+}
+#prproyectos1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25rem solid rgba(37, 36, 38, 0.7);
+    background-color: rgba(37, 36, 38, 0.3);
+    color: aliceblue;
+    border-radius: 1rem;
+}
+#prproyectos2 {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25rem solid rgba(37, 36, 38, 0.7);
+    background-color: rgba(37, 36, 38, 0.3);
+    color: aliceblue;
+    border-radius: 1rem;
+}
+#prproyectos3 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25rem solid rgba(37, 36, 38, 0.7);
+    background-color: rgba(37, 36, 38, 0.3);
+    color: aliceblue;
+    border-radius: 1rem;
+}
+#imgbarra1 {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    object-fit: cover;
+    border: .25rem solid rgba(37, 36, 38, 0.7);
+    background-color: rgba(37, 36, 38, 0.7);;
+    border-radius: 1rem;
+}
+#imgbarra1 img{
+    object-fit: contain;
+}
+#imgbarra2 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    object-fit: cover;
+    border: .25rem solid rgba(37, 36, 38, 0.7);
+    background-color: rgba(37, 36, 38, 0.7);
+    border-radius: 1rem;
+}
+#imgbarra2 img{
+    object-fit: contain;
+}
+#imgbarra3 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+    object-fit: cover;
+    border: .25rem solid rgba(37, 36, 38, 0.7);
+    background-color: rgba(37, 36, 38, 0.7);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+#imgbarra3 img{
+    object-fit: contain;
+}
+#seccontacto {
+    height: 50%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    padding: 1rem;
+}
+
+#formulario {
+    border: .25rem solid #471ED9;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 3rem;
+    width: 50%;
+    align-self: center;
+    background-color: #193940;
+}
+fieldset {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    background-color: #132928;
+}
+#seccontacto form fieldset input {
+    flex: 1;
+    color: #282828;
+    border-bottom: 0.25rem solid #282828;
+    padding: 0 1rem;
+  }
+#seccontacto form button {
+    display: flex;
+    width: 15%;
+    height:15%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #471ED9;
+    text-transform: uppercase;
+    color: snow;
+    cursor: pointer;
+    align-self: center;
+    justify-content: center;
+}
+#seccontacto form textarea {
+    width: 100%;
+    padding: 1rem;
+}
+#redes a{
+    color: aliceblue;
+    padding: .5rem;
+}
+#red1:hover {
+    transform: scale(1.5);
+}
+#red2:hover {
+    transform: scale(1.5);
+}
+#red3:hover {
+    transform: scale(1.5);
+}
+  
